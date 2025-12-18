@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #0D0D0D;
+}
+
+.container {
+    text-align: center;
+}
+
+.snowburst-one-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    word-spacing: 10px;
+    font-size: 40px;
+    margin-bottom: 20px; 
+    color:wheat;
+}
+
+.main-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 8px;
+    color: #00E5FF;
+    background-color: transparent;
+    border: 2px solid #00E5FF;
+    transition: 0.3s ease;
+}
+
+.main-second-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #0D0D0D;
+    transition: 0.3s ease;
+}
+
+.main-btn:hover {
+    background-color: #00E5FF;
+    color: #0D0D0D;
+}
+
+.main-second-btn:hover {
+    background-color: #00E5FF;
+    color: #0D0D0D;
+    border:2px solid black;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;   
+    gap: 20px;
+    padding: 10px 0px;
+    background: #F8F8F8;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-btn {
+    padding: 10px 15px;
+    border: 2px solid transparent;
+}
+
+
